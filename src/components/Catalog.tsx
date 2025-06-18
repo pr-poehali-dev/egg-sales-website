@@ -36,16 +36,6 @@ const Catalog = () => {
       image:
         "https://images.unsplash.com/photo-1518569656558-1f25e69d93d7?w=400&h=300&fit=crop",
     },
-    {
-      id: 3,
-      name: "Перепелиные яйца",
-      description:
-        "Деликатесные перепелиные яйца. Богаты витаминами и микроэлементами.",
-      price: 200,
-      unit: "20 шт",
-      image:
-        "https://images.unsplash.com/photo-1627662236147-3ac7d3f8756f?w=400&h=300&fit=crop",
-    },
   ];
 
   const scrollToContact = () => {

@@ -162,7 +162,6 @@ const Contact = () => {
                   <option value="">Выберите тип яиц</option>
                   <option value="С1">Куриные яйца С1</option>
                   <option value="С0">Куриные яйца С0</option>
-                  <option value="перепелиные">Перепелиные яйца</option>
                 </select>
               </div>
 
