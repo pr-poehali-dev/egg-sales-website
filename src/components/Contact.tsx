@@ -99,8 +99,27 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Delivery Info */}
+            {/* Pickup Location */}
             <div className="mt-12 p-6 bg-white rounded-2xl shadow-lg">
+              <h4 className="font-montserrat text-xl font-semibold mb-6 text-center">
+                Самовывоз
+              </h4>
+              <div className="flex items-center justify-center gap-4">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Icon name="MapPin" size={24} className="text-blue-600" />
+                </div>
+                <div className="text-center">
+                  <p className="font-semibold text-lg">Место встречи</p>
+                  <p className="text-gray-600">ул. Розы Люксембург</p>
+                  <p className="text-sm text-gray-500 mt-1">
+                    Договариваемся о времени
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Delivery Info */}
+            <div className="mt-8 p-6 bg-white rounded-2xl shadow-lg">
               <h4 className="font-montserrat text-xl font-semibold mb-6 text-center">
                 Доставка
               </h4>
