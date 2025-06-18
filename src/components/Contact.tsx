@@ -80,6 +80,16 @@ const Contact = () => {
 
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Icon name="MapPin" size={24} className="text-orange-600" />
+                </div>
+                <div>
+                  <p className="font-semibold">Адрес</p>
+                  <p className="text-gray-600">Гаврилов Посад</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
                   <Icon name="Clock" size={24} className="text-orange-600" />
                 </div>
                 <div>
