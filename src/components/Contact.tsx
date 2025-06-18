@@ -60,7 +60,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Телефон</p>
-                  <p className="text-gray-600">+7 (999) 123-45-67</p>
+                  <p className="text-gray-600">+7 980 686 52 76</p>
                 </div>
               </div>
 
@@ -74,7 +74,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">WhatsApp</p>
-                  <p className="text-gray-600">+7 (999) 123-45-67</p>
+                  <p className="text-gray-600">+7 980 686 52 76</p>
                 </div>
               </div>
 
@@ -101,14 +101,12 @@ const Contact = () => {
 
             <div className="mt-8 p-6 bg-white rounded-xl border border-gray-200">
               <h4 className="font-semibold mb-3 flex items-center gap-2">
-                <Icon name="Truck" size={20} className="text-orange-600" />
-                Доставка
+                <Icon name="MapPin" size={20} className="text-orange-600" />
+                Самовывоз
               </h4>
-              <ul className="text-sm text-gray-600 space-y-2">
-                <li>• По Подольску — бесплатно при заказе от 500₽</li>
-                <li>• По Москве — 200₽</li>
-                <li>• Самовывоз — бесплатно</li>
-              </ul>
+              <p className="text-sm text-gray-600">
+                Забрать заказ можно по адресу: Московская область, Подольск
+              </p>
             </div>
           </div>
 
@@ -145,7 +143,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-                  placeholder="+7 (999) 123-45-67"
+                  placeholder="+7 980 686 52 76"
                 />
               </div>
 

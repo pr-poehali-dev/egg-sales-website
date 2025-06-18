@@ -57,7 +57,7 @@ const Catalog = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {products.map((product) => (
             <div
               key={product.id}
@@ -75,7 +75,7 @@ const Catalog = () => {
                 <h3 className="font-montserrat text-xl font-semibold mb-2">
                   {product.name}
                 </h3>
-                <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+                <p className="text-gray-600 mb-4 text-sm leading-relaxed min-h-[3rem]">
                   {product.description}
                 </p>
 
