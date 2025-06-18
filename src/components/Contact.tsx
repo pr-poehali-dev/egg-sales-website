@@ -98,6 +98,22 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+
+            {/* Delivery Info */}
+            <div className="mt-12 p-6 bg-white rounded-2xl shadow-lg">
+              <h4 className="font-montserrat text-xl font-semibold mb-6 text-center">
+                Доставка
+              </h4>
+              <div className="flex items-center justify-center gap-4">
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Icon name="Truck" size={24} className="text-green-600" />
+                </div>
+                <div className="text-center">
+                  <p className="font-semibold text-lg">По городу</p>
+                  <p className="text-2xl font-bold text-green-600">200 руб</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Order Form */}
