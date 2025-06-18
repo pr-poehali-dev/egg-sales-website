@@ -90,6 +90,23 @@ const Contact = () => {
 
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Icon name="Globe" size={24} className="text-orange-600" />
+                </div>
+                <div>
+                  <p className="font-semibold">Сайт</p>
+                  <a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-orange-600 hover:text-orange-700 transition-colors break-all"
+                  >
+                    www.example.com
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
                   <Icon name="Clock" size={24} className="text-orange-600" />
                 </div>
                 <div>
