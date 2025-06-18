@@ -80,33 +80,13 @@ const Contact = () => {
 
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Icon name="MapPin" size={24} className="text-orange-600" />
-                </div>
-                <div>
-                  <p className="font-semibold">Адрес</p>
-                  <p className="text-gray-600">Московская область, Подольск</p>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
                   <Icon name="Clock" size={24} className="text-orange-600" />
                 </div>
                 <div>
                   <p className="font-semibold">Режим работы</p>
-                  <p className="text-gray-600">Ежедневно с 8:00 до 20:00</p>
+                  <p className="text-gray-600">Ежедневно с 9:00 до 15:00</p>
                 </div>
               </div>
-            </div>
-
-            <div className="mt-8 p-6 bg-white rounded-xl border border-gray-200">
-              <h4 className="font-semibold mb-3 flex items-center gap-2">
-                <Icon name="MapPin" size={20} className="text-orange-600" />
-                Самовывоз
-              </h4>
-              <p className="text-sm text-gray-600">
-                Забрать заказ можно по адресу: Московская область, Подольск
-              </p>
             </div>
           </div>
 
